@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --inspect --watch -- ./src/app.ts"
+    "dev": "ts-node-dev --inspect --watch -- ./src/app.ts",
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
